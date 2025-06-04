@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-arzumata-qwen2"
+description = "Qwen2 Nodes for ComfyUI.\nI needed to run Qwen2 on ComfyUI to use it in my workflow for batching images and captioning and none of the implementations I found on the web worked the way I wanted.[w/May contain bugs.]"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "numpy", "pillow", "huggingface_hub", "decord", "accelerate", "qwen-vl-utils[decord]", "auto-gptq", "transformers>=4.45.0"]
+
+[project.urls]
+Repository = "https://github.com/ARZUMATA/ComfyUI-ARZUMATA-Qwen2"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ARZUMATA-Qwen2"
+Icon = ""
